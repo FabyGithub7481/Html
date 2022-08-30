@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi primera Web</title>
+    <style>
+      table, th, td {
+       border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- tablas-->
+    <table style="width: 500px ;">
+      <thead>
+        <tr>
+          <th>Precio</th>
+          <th>Producto</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>beats</td>
+          <td>gratis</td>
+        </tr>
+        <tr>
+          <td>libre</td>
+          <td>19.90$</td>
+        </tr>
+        <tr>
+          <td>libro super magico</td>
+          <td>29.90$</td>
+        </tr>
+      </tbody>
+       <tfoot>
+        <td></td>
+        <td>Total: 49.80$</td>
+       </tfoot>     
+    </table>
+    <!--lista no ordenada-->
+     <u>
+      <li>Elemento001</li>
+      <li>Elemento002</li>
+      <li>Elemento003</li>
+      <li>Elemento004</li>
+      <li>Elemento005</li>
+     </u>
+
+     <!--lista ordenada-->
+     <ol>
+      <li value="50">Elemento001</li>
+      <li>Elemento002</li>
+      <li>Elemento003</li>
+      <li>Elemento004</li>
+      <li>
+        <ol>
+          <li style="list-style-type: lower-alpha">sub elemento 1</li>
+          <li style="list-style-type: lower-alpha">sub elemento 2</li>
+          <li style="list-style-type: lower-alpha">sub elemento 3</li>
+        </ol>
+      </li>
+     </ol>
+    <form action="/formulario" method="POST">
+      <label for="lblNombre">Nombre: </label>
+      <input type="text" value="Faby" id="lblNombre" name="lblNombre" placeholder="Nombre">
+      <br>
+      <label for="lblApellido">Apellido: </label>
+      <input type="text" value="Suannewguer" id="lblApellido" name="lblApellido" placeholder="Apellido">
+      <br>
+      <label for="txArea">Comentario</label>
+      <textarea name="txArea" id="txArea" placeholder="Ingrese comentario" cols="30" rows="10">comentario por defecto</textarea>
+      <br>
+      <button type="button">Tipo Boton</button>
+      <button type="submit">Enviar</button>
+      <button type="reset">Reset</button>
+    </form>
+    <h1>Mi primer headign</h1>
+    <hr>
+    <h2>Mi segundo headign</h2>
+    <hr>
+    <h3>Mi tercer headign</h3>
+    <p>texto poco mas de texto poco <span style="color:blue">dentro del span</span>
+    <br>
+    salto de linea
+    <br>
+    </p>
+    <!-- este es un comentario-->
+    <a target="_blank" href="https://www.google.ec">ir a Google</a>
+    <br>
+    <br>
+    <img src="img/Caballo de troya 1.jpg" width="100" height="150">
+    
+  </body>
+</html>
